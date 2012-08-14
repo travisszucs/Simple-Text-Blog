@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+		<div class='registration'>
+        <h1>registration</h1>
+		<form method="post">
+			<label>
+				<div>username</div>
+				<input type="text" name="username" value="{{username}}">
+				<div class ="error">
+					{{username_error}}
+				</div>
+			</label>
+			
+			<label>
+				<div>password</div>
+				<input type="password" name="password" value="">
+				<div class ="error">
+					{{pw_error}}
+				</div>
+			</label>
+		
+			<label>
+				<div>verify password</div>
+				<input type="password" name="verify" value="">
+			</label>
+			
+			<label>
+				<div>email (optional)</div>
+				<input type="text" name="email" value="{{email}}">
+			</label>
+			
+			<input type="submit">
+		</form>
+		</div>
+{% endblock %}

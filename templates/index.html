@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+	{% for post in posts %}
+		<div class="post">
+			<div class="post-header">
+			
+				<a href ="/{{post.key().id()}}" class="post-subject">
+					{{post.subject}}
+				</a>
+				<div class="post-created">
+					{{post.created.strftime("%b %d, %Y")}}
+				</div>
+				
+			</div>
+			
+				<pre class="post-content">{{post.content}}</pre>
+				
+		</div>
+	{% endfor %}
+	
+{% endblock %}
