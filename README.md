@@ -9,7 +9,7 @@ The site was built with Python using jinja2 as a templating library, and Google 
 An example of this engine can be found at 
 http://ifoughtsharks.appspot.com
 
-With links on the blog listed below:
+With links on the blog listed below:    
 Main Page:                http://ifoughtsharks.appspot.com/   
 Signup:                   http://ifoughtsharks.appspot.com/signup   
 Login:                    http://ifoughtsharks.appspot.com/login   
