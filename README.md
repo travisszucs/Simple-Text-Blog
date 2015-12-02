@@ -6,5 +6,3 @@ bit about website infrastructure, cookies, and encryption. The course was taken 
 a project.
 
 The site was built with Python using jinja2 as a templating library, and Google App Engine to take away any of the back end stress and allow a better focus on the programming details.
-
-Currently, the blog is not hosted however the code is available for your use.
