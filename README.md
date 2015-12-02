@@ -18,4 +18,4 @@ Logout:                   http://ifoughtsharks.appspot.com/logout
 Personal Welcome Page:    http://ifoughtsharks.appspot.com/welcome   
 New Post:                 http://ifoughtsharks.appspot.com/newpost   
 
-Sign up IS NOT required to create a new post.
+Sign up is not required to create a new post.
